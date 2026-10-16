@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#f7dfe8">
+<title>Sanjana jaiswal & Himanshu Gupta | Wedding Invitation</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Great+Vibes&family=Allura&family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500;6..96,600&family=Playfair+Display:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="locked">
+<audio id="bgMusic" src="asset/audio.mp3" loop preload="auto"></audio>
+<button class="music-toggle" id="musicToggle" type="button" aria-pressed="false" aria-label="Turn music on">♫ <span>OFF</span></button>
+
+<main class="invite">
+  <!-- Opening -->
+  <section class="opening page" id="top" aria-label="Open invitation">
+    <div class="opening-monogram-wrap">
+      <img class="monogram" src="asset/HSlogo.png" alt="IS royal monogram">
+      <p class="opening-subtitle">Wedding Celebration</p>
+      <button class="open-btn" id="openInvitation">Open Invitation</button>
+    </div>
+  </section>
+
+  <!-- Couple -->
+  <section class="couple page" aria-label="The couple and their families">
+    <div class="couple-copy">
+      <p class="eyebrow">We cordially invite you with<br>your family for the covenant<br>wedding ceremony of</p>
+      <div class="couple-person">
+        <h1>Sanjana jaiswal</h1>
+        <p><em>Daughter of Mr. Rajkumar Jaiswal <br>&amp; Mrs. Reenu jaiswal</em></p>
+      </div>
+      <div class="couple-divider">&amp;</div>
+      <div class="couple-person">
+        <h1>Himanshu Gupta </h1>
+        <p><em>Son of Mr. XYZ<br>&amp; Mrs. ZYZ</em></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Remember the Date -->
+  <section class="save-date page" aria-label="Remember the date">
+    <div class="petal-layer" id="petalLayer" aria-hidden="true"></div>
+    <div class="save-overlay">
+      <div class="scratch-wrap" id="scratchWrap">
+        <div class="revealed-date">
+          <span>OUR WEDDING DAY</span>
+          <strong>29</strong>
+          <b>January</b>
+          <small>2027 · FRIDAY</small>
+        </div>
+        <canvas id="scratchCanvas" aria-label="Scratch to reveal the wedding date"></canvas>
+      </div>
+      <div class="countdown" id="countdown">
+        <div><strong id="days">--</strong><span>DAYS</span></div>
+        <div><strong id="hours">--</strong><span>HOURS</span></div>
+        <div><strong id="minutes">--</strong><span>MINUTES</span></div>
+        <div><strong id="seconds">--</strong><span>SECONDS</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Penn Vazhthu -->
+  <section class="event penn page" aria-label="Penn Vazhthu">
+    <div class="event-copy penn-copy">
+      <h2>Penn Vazhthu</h2>
+      <p class="event-date">Thursday, 29 January 2027</p>
+      <p class="event-time">5:30 PM</p>
+      <p class="event-place">Varanasi</p>
+      <a class="map-link" href="https://maps.google.com/?q=25.3756,%2083.0266" target="_blank" rel="noopener">Open Map</a>
+    </div>
+  </section>
+
+  <!-- Wedding -->
+  <section class="event wedding page" aria-label="Wedding Ceremony">
+    <div class="event-copy wedding-copy">
+      <h2>Wedding Ceremony</h2>
+      <p class="event-date">Friday, 29 January 2026</p>
+      <p class="event-time">4:30 PM</p>
+      <p class="event-place"> Jaiswal hall <br>chetganj Varanasi <br>Varanasi 421329</p>
+      <a class="map-link" href="https://maps.google.com/?q=25.3756,%2083.0266" target="_blank" rel="noopener">Open Map</a>
+    </div>
+  </section>
+
+  <!-- Reception -->
+  <section class="event reception page" aria-label="Wedding Reception">
+    <div class="event-copy reception-copy">
+      <h2>Wedding Reception</h2>
+      <p class="event-date">Friday, 29 January 2026</p>
+      <p class="event-time">7:00 PM</p>
+      <p class="event-place">CSI LITE Auditorium<br>17, Balfour Road, behind CSI BAIN MATRIC HIGHER SECONDARY SCHOOL, Kellys, Kilpauk,<br>Chennai, Tamil Nadu 600010</p>
+      <a class="map-link" href="https://maps.google.com/?q=25.3756,%2083.0266" target="_blank" rel="noopener">Open Map</a>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section class="gallery page" aria-label="Photo Gallery">
+    <div class="gallery-content">
+      <h2>Photo Gallery</h2>
+      <div class="gallery-viewer">
+        <button class="gallery-nav prev" id="prevPhoto" aria-label="Previous photo">‹</button>
+        <div class="photo-print">
+          <img id="galleryPhoto" src="asset/couple-1.jpg" alt="Sanjana & Himanshu">
+          <div class="photo-caption" id="galleryQuote">“Two hearts, one beautiful beginning.”</div>
+        </div>
+        <button class="gallery-nav next" id="nextPhoto" aria-label="Next photo">›</button>
+      </div>
+      <div class="gallery-dots" id="galleryDots" aria-hidden="true"><span class="active"></span><span></span><span></span></div>
+    </div>
+  </section>
+
+  <!-- Guest Dress Code -->
+  <section class="dress-code page" aria-label="Guest dress code">
+    <img src="asset/guest-dress-code.png" alt="Guest dress code: Romantic Garden" loading="lazy">
+  </section>
+
+  <!-- Guest Message -->
+  <section class="guest page" aria-label="Guest Message">
+    <div class="guest-copy">
+      <h2>Dear Guest</h2>
+      <p>Your presence, Blessing<br>and love will make our<br>celebration truly complete</p><div class="guest-signoff"><span> Sanjana jaiswal </span><strong>&amp;</strong><span>Himanshu Gupta </span></div>
+    </div>
+  </section>
+
+  <!-- Thank You -->
+  <footer class="footer page" aria-label="Thank you">
+    <div class="footer-copy">
+      <h2>Thank You</h2>
+      <p>We look forward to<br>celebrating the day<br>with you.</p>
+      <small>Made with love by</small>
+      <a class="instagram-pill" href="https://www.instagram.com/jaiswal02abhi?vrfl=cGF0bnBpbTRiYzU5" target="_blank" rel="noopener" aria-label="Instagram @Jaiswal02abhi">
+        <span class="instagram-icon">◎</span><span>@Jaiswal02abhi</span>
+      </a>
+    </div>
+  </footer>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
