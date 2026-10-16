@@ -76,7 +76,7 @@ body.locked {
     max-height: 100dvh;
     overflow: hidden;
     aspect-ratio: auto;
-    background-image: url('asset/opening-bg.jpg');
+    background-image: url('opening-bg.jpg');
     display: flex;
     align-items: center;
     justify-content: center;
@@ -142,7 +142,7 @@ body.locked {
 /* Couple */
 .couple {
     aspect-ratio: 1024/1536;
-    background-image: url('asset/couple-bg.jpg');
+    background-image: url('couple-bg.jpg');
     display: flex;
     align-items: center;
     justify-content: center
@@ -200,7 +200,7 @@ body.locked {
 /* Remember the Date */
 .save-date {
     aspect-ratio: 864/1536;
-    background-image: url('asset/save-date-bg.png');
+    background-image: url('save-date-bg.png');
     display: flex;
     align-items: flex-start;
     justify-content: center
@@ -378,17 +378,17 @@ body.locked {
 
 .penn {
     aspect-ratio: 864/1536;
-    background-image: url('asset/penn-vazhthu-bg.jpg')
+    background-image: url('penn-vazhthu-bg.jpg')
 }
 
 .wedding {
     aspect-ratio: 910/1536;
-    background-image: url('asset/wedding-bg.png')
+    background-image: url('wedding-bg.png')
 }
 
 .reception {
     aspect-ratio: 864/1536;
-    background-image: url('asset/reception-bg.jpg')
+    background-image: url('reception-bg.jpg')
 }
 
 .event-copy {
@@ -459,7 +459,7 @@ body.locked {
 /* Gallery */
 .gallery {
     aspect-ratio: 864/1536;
-    background-image: url('asset/gallery-bg.jpg');
+    background-image: url('gallery-bg.jpg');
     display: flex;
     align-items: flex-start;
     justify-content: center
@@ -574,7 +574,7 @@ body.locked {
 /* Guest */
 .guest {
     aspect-ratio: 864/1536;
-    background-image: url('asset/guestbook-bg.png');
+    background-image: url('guestbook-bg.png');
     display: flex;
     align-items: center;
     justify-content: center
@@ -622,7 +622,7 @@ body.locked {
 /* Thank You */
 .footer {
     aspect-ratio: 1536/766;
-    background-image: url('asset/footer-bg.png');
+    background-image: url('footer-bg.png');
     display: flex;
     align-items: flex-start;
     justify-content: center
