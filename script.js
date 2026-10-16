@@ -146,7 +146,7 @@ function updateCountdown(){
 updateCountdown();setInterval(updateCountdown,1000);
 
 // One-photo-at-a-time gallery with quote in the lower white print area
-const photos=['asset/couple-1.jpg','asset/couple-2.jpg','asset/couple-3.jpg'];
+const photos=['couple-1.jpg','couple-2.jpg','couple-3.jpg'];
 const quotes=[
   '“Two hearts, one beautiful beginning.”',
   '“In every moment, I choose you.”',
